@@ -1,21 +1,14 @@
-
 let n = 0;
 
-
-document.getElementById("bt").onclick = function change_clr() {
-if(n === 0){
-    document.getElementById("bt").style.backgroundColor = "black";
-    document.getElementById("bt").style.color = "white";
-    document.getElementById("bt").classList.add("active");
+document.getElementById("bt1").onclick = function change_clr() {
+  if (n === 0) {
+    document.getElementById("bt1").style.backgroundColor = "black";
+    document.getElementById("bt1").style.color = "white";
+    document.getElementById("bt1").classList.add("active");
     n = 1;
-}
-else{
-document.getElementById("bt").classList.remove("active")
+  } else {
+    document.getElementById("bt1").classList.remove("active");
 
-n=0;
-}
-
-
-}
-
-
+    n = 0;
+  }
+};
