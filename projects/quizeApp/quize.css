@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    
+   font-family: 'Poppins', sans-serif;
+}
+.mainScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    margin: 10px 0px 10px 0px;
+}
+.quizeArea{
+    height: 550px;
+    width: 600px;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.spacing{
+    width: 100vw;
+    margin: 10px 20px 10px 20px;
+}
+.qNo{
+ display: flex;
+ border-top: 2px solid grey;
+ border-bottom: 2px solid grey;
+ align-items: center;
+ justify-content:space-between;
+ 
+ 
+}
+.qno{
+    display: flex;
+    gap: 5px;
+
+}
+#WatchImg{
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.time{
+    margin-left: 7px;
+    margin-right: 10px;
+}
+.timmer{
+    width: 100px;
+    height: 35px;
+    margin: 5px 0px 5px 0px ;
+    background-color: aqua;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+
+   
+}
+.q_area{
+    margin: 15px 5px 15px 5px;
+}
+.options{
+    margin: 30px 0px 30px 0px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.optionStyle {
+    border: 1.5px solid grey;
+    
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.optionButtons{
+    height: 50px;
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+}
+.next{
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    border-radius: 1.5rem;
+    background-color: #0a69ed;
+    color: white;
+    font-size: medium;
+}
+#moveToNext{
+    display: flex;
+    justify-content: right;
+}

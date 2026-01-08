@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    border: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Main_Screen{
+display: flex;
+flex-direction: column;
+}
+.welcomeH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side{
+    margin: 0px 20px 0px  20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 20px;
+}
+.container{
+    background-color: white;
+   
+    border-radius: 0.5rem;
+}
+.Box_spacing{
+    margin: 15px  20px 15px 20px;
+}
+.hadingText{
+    
+    color: black;
+text-transform: capitalize;
+}
+.paragrapgh{
+    text-transform: capitalize;
+    color: black;
+
+    margin:  8px 0px  8px 0px;
+}
+.StartNowBtnBox{
+    width: 100%;
+    background-color: black;
+    border-radius: 0.5rem;
+    border: 1.2px solid white;
+    height: 30px;
+
+}
+.EnterBtn{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+    color: white;
+font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: 500;
+}
