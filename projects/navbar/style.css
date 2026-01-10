@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+}
+.header{
+    height: 70px;
+    position:sticky;
+    top: 0;
+   background-color: aliceblue;
+    z-index: 1000;
+    overflow: hidden;
+    
+}
+.area{
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    margin-left: 30px;
+    padding: 10px;
+}
+.heroSeaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.option{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    gap: 30px;
+
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    border: 0px;
+border-radius: 2.5rem;
+border: 1px solid grey;
+font-size: medium;
+
+}
